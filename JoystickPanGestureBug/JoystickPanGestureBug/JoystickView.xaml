@@ -4,8 +4,14 @@
 			 xmlns:local="clr-namespace:JoystickPanGestureBug"
 			 x:Class="JoystickPanGestureBug.JoystickView">
   <ContentView.Content>
-	  <StackLayout>
+		<Grid>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="200"/>
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="200"/>
+			</Grid.RowDefinitions>
 			<local:Joystick/>
-		</StackLayout>
-  </ContentView.Content>
+		</Grid>
+	</ContentView.Content>
 </ContentView>
